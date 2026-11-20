@@ -1,0 +1,26 @@
+
+
+
+.pdf-meta {
+    display: none;
+  }
+  
+  body.pdf-exporting .pdf-meta {
+    display: block;
+    margin: 20px 0 0;
+    font: 500 18px var(--font-family-main, "Figtree", sans-serif);
+    text-align: right;
+    color: rgba(255, 255, 255, 0.85);
+  }
+  
+  
+  body.pdf-exporting .stat-actions {
+    display: none;
+  }
+  
+  
+  .btn-pdf.is-loading {
+    opacity: 0.7;
+    pointer-events: none;
+    cursor: progress;
+  }
